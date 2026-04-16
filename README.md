@@ -1,2 +1,2 @@
-# GRUPO-LJN
-grupo de Tec
+# TP PARTE 1
+Jade , Lautaro y Nancy
