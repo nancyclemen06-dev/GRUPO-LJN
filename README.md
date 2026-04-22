@@ -1,4 +1,4 @@
 Nancy Clemencot
-Jade Golzález
+Jade González
 Lautaro Morgante
 Emanuel Ortega
