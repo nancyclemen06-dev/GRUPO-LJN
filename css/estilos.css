@@ -56,3 +56,10 @@ body {
     text-align: left;
 }
 
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 0 0.8rem 1rem;
+}
