@@ -34,3 +34,10 @@ body {
     color: #b40505;
     text-decoration: none;
 }
+/* Pie de pagina */
+.pieDePagina {
+    background: linear-gradient(165deg, #53c959, #0f6328, #157402b0);
+    color: #78f789;
+    padding: 0.001em;
+    text-align: center;
+}
