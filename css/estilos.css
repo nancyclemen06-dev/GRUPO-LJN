@@ -1,4 +1,36 @@
-
 body {
     font-family: roboto ;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    line-height: 1.5;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+ /* Navegación */
+ .encabezado {
+    background: linear-gradient(165deg, #53c959, #0f6328, #157402b0);
+    color: #78f789;
+    padding: 0.2em;
+    text-align: center;
+}
+
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+}
+.navegacion ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navegacion ul li a {
+    color: #44f1bd;
+    text-decoration: none;
+}
+.navegacion ul li a:hover {
+    color: #b40505;
+    text-decoration: none;
 }
