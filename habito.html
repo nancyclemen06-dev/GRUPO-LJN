@@ -3,21 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <title>Hacer del cuidado ambiental un hábito</title>
 </head>
+
 <body>
-    <header> <h3>Otros programas</h3>
-        <nav> 
+    <header class="encabezado"> 
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section>
+        <h3>Otros programas</h3>
             <ul> 
-                <li><a href="index.html">Volver a INICIO</a></li>
                 <li><a href="habito.html">Hacer del cuidado ambiental un hábito</a></li>
                 <li><a href="empleo.html">Empleo verde</a></li>
                 <li><a href="festival.html">Festival ambiental</a></li>
                 <li><a href="arbol.html">Un arbol = Una vida</a></li>
             </ul>
-        </nav>
-    </header>
+    </section>
     
     <main class="cuerpoDePagina">
 
@@ -123,8 +139,9 @@
                     de mejor forma en el tema. <em>Jugando, aprendiendo y concientizando</em>
                 </p>
 
+                <br>
 
-                <video controls width="700" poster="imagenes/imagen_video.jpg">
+                <video controls width="700"v>
                     <source src="videos/video_edu_kids.mp4" type="video/mp4">
                     Tu navegador no soporta video HTML5
                 </video>
@@ -194,9 +211,12 @@
              <hr>
 
              <section>
-                <h2>Publicaciones</h2>
+                <h2>Publicaciones</h2> <!--Falta box sizing-->
 
-                <p>fotos</p>
+                <img src="imagenes/habito_uno.jpg" alt="Fotografia de niños reciclando" width="300" height="200">
+                <img src="imagenes/habito_dos.webp" alt="Fotografia de niños emocionados al aprender" width="300" height="200">
+                <img src="imagenes/habito_tres.jpg" alt="" width="300" height="200">
+                <img src="imagenes/habito_cuatro.jpg" alt="" width="300" height="200">
 
              </section>
 
@@ -222,9 +242,12 @@
 
     <br>
 
-    <footer>
-        No es un cambio de un día, es una forma de vivir
-    </footer>
+    <footer class="pieDePagina">
+            <p>
+                <strong>Tierra Fértil</strong> - Organización de Concientización Ambiental <br>
+                Ayudanos a cuidar el medio ambiente. <a href="Contacto.html">Sumate</a> <br>
+            </p>
+        </footer>
 
 </body>
 </html>
