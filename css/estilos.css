@@ -1,8 +1,14 @@
+/* Variables */
+:root {
+    --color-marca: linear-gradient(165deg, #53c959, #0f6328, #157402b0); /*fondo verde*/
+    --color-fondo: antiquewhite;
+}
+
 body {
     font-family: roboto ;
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: var(--color-fondo);
     line-height: 1.5;
     min-height: 100vh;
     flex-direction: column;
@@ -11,7 +17,7 @@ body {
 
  /* Navegación */
  .encabezado {
-    background: linear-gradient(165deg, #53c959, #0f6328, #157402b0);
+    background: var(--color-marca);
     color: #78f789;
     padding: 0.2em;
     text-align: center;
@@ -36,7 +42,7 @@ body {
 }
 /* Pie de pagina */
 .pieDePagina {
-    background: linear-gradient(165deg, #53c959, #0f6328, #157402b0);
+    background: var(--color-marca);
     color: #78f789;
     padding: 0.001em;
     text-align: center;
