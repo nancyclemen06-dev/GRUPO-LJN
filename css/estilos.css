@@ -21,12 +21,6 @@ body {
     display: flex;
 }
 
-/* Cuerpo de las paginas */
-.cuerpoDePagina {
-    margin: 1rem;
-    padding: 1rem;
-}
-
  /* Navegación */
  .encabezado {
     background: var(--color-marca);
@@ -52,6 +46,34 @@ body {
     color: #b40505;
     text-decoration: none;
 }
+
+/* Cuerpo de las paginas */
+.cuerpoDePagina {
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.cuerpoDePagina a {
+    color: #2f8d00fc;
+    text-decoration: none;
+}
+
+.cuerpoDePagina a:hover {
+    color: #b40505;
+    text-decoration: underline;
+}
+
+.contenidos {
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}
+
+.programas {
+    padding: 1rem;
+}
+
+
 /* Pie de pagina */
 .pieDePagina {
     background: var(--color-marca);
