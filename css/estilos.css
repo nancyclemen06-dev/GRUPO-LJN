@@ -1,3 +1,9 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
 /* Variables */
 :root {
     --color-marca: linear-gradient(165deg, #53c959, #0f6328, #157402b0); /*fondo verde*/
