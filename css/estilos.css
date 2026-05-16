@@ -9,11 +9,8 @@
     --color-marca: linear-gradient(165deg, #53c959, #0f6328, #157402b0); /*fondo verde*/
     --color-fondo: antiquewhite;
     --color-acento: #809B41;
-    --color-publicaciones: #127fa4 ;
-    --colr-titulo: #84c6ed ;
-    --color-h2: #396333 ;
-    --color-subtitulo: #50764a ;
-
+    --color-publicaciones: green;
+    --color-subtitulos: #4c9141 ;
 }
 
 body {
@@ -150,15 +147,12 @@ form {
 }
 
 .titulo {
-    background-color: var(--colr-titulo);
-}
-
-.h2 {
-    color: var(--color-h2);
+    color: var(--color-fondo) ;
+    background-color: green ;
 }
 
 .subtitulo {
-    color: var(--color-subtitulo);
+    color: var(--color-subtitulos)
 }
 
 
