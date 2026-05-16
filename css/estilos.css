@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: roboto ;
+    font-family: "Roboto", sans-serif; 
     margin: 0px;
     padding: 0;
     background-color: var(--color-fondo);
@@ -25,6 +25,7 @@ body {
 
  /* Navegación */
  .encabezado {
+    font-family: "Marhey", sans-serif;
     background: var(--color-marca);
     color: #78f789;
     padding: 0.2em;
@@ -78,6 +79,7 @@ body {
 
 /* Pie de pagina */
 .pieDePagina {
+    font-family: "Marhey", sans-serif;
     background: var(--color-marca);
     color: #78f789;
     padding: 0.001em;
@@ -116,7 +118,9 @@ dd {
     margin: 0 0 0.8rem 1rem;
 }
 
+/* Formulario de contacto */
 form {
+    font-family: "Marhey", sans-serif;
     width: 45%;
     border: 1px solid var(--color-acento);
     padding: 1rem;
