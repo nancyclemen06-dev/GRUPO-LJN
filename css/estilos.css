@@ -11,6 +11,7 @@
     --color-acento: #809B41;
     --color-publicaciones: #a9e159 ;
     --color-subtitulos: #4c9141 ;
+    --color-links: #b40505; 
 }
 
 body {
@@ -47,7 +48,7 @@ body {
     text-decoration: none;
 }
 .navegacion ul li a:hover {
-    color: #b40505;
+    color: var(--color-links);
     text-decoration: none;
 }
 
@@ -66,7 +67,7 @@ body {
 }
 
 .cuerpoDePagina a:hover {
-    color: #b40505;
+    color: var(--color-links);
     text-decoration: underline;
 }
 
