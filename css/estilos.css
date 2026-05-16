@@ -9,7 +9,7 @@
     --color-marca: linear-gradient(165deg, #53c959, #0f6328, #157402b0); /*fondo verde*/
     --color-fondo: antiquewhite;
     --color-acento: #809B41;
-    --color-publicaciones: #317f43 ;
+    --color-publicaciones: #a9e159 ;
     --color-subtitulos: #4c9141 ;
 }
 
@@ -132,9 +132,18 @@ dd {
     flex-direction: row ;
     align-items: center;
 }
+.container_video {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    padding: 20px;
+    background-color: var(--color-publicaciones);
+}
 
 .imagen {
     border: 4px solid var(--color-fondo) ;
+    width: 220px ;
+    height: 180px;
 }
 
 .imagen_2 {
@@ -142,12 +151,17 @@ dd {
     flex-direction: column ;
     align-items: center ;
     text-align: center ;
+    border: 4px solid var(--color-fondo) ;
+}
+
+.video {
+    border: 4px solid var(--color-fondo) ;
 }
 
 .texto_imagen {
     font-family: 'Poppins', sans-serif;
-    font-size: 12px ;
-    color: var(--color-fondo);
+    font-size: 16px ;
+    color: #553d2a;
     font-weight: 500;
     text-align: center;
 }
