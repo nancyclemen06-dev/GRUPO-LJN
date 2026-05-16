@@ -8,6 +8,8 @@
 :root {
     --color-marca: linear-gradient(165deg, #53c959, #0f6328, #157402b0); /*fondo verde*/
     --color-fondo: antiquewhite;
+    --color-acento: #809B41;
+
 }
 
 body {
