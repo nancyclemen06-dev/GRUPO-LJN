@@ -131,7 +131,7 @@ form {
 
 form label {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 10px; 
 }
 
 form input, form textarea {
@@ -145,4 +145,20 @@ form input, form textarea {
     background-color: var(--color-acento);
     color: black;
     text-decoration: underline;
+}
+
+/* Titulo*/
+h2 {
+  font-size: 1.8rem;         
+  color: var(--color-acento); 
+  margin-top: 0.5rem;           
+  margin-bottom: 1rem;        
+  border-bottom: 2px solid var(--color-acento); 
+}
+
+h3 {
+  font-size: 1.4rem;          
+  margin-bottom: 0.5rem;
+  font-style: italic;         
+  margin-top: 1rem;
 }
