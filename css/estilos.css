@@ -121,15 +121,6 @@ dd {
     margin: 0 0 0.8rem 1rem;
 }
 
-/* Formulario de contacto */
-form {
-    font-family: "Marhey", sans-serif;
-    width: 40%;
-    border: 1px solid var(--color-acento);
-    padding: 1rem;
-    margin-top: 1rem;
-}
-
 /* Publicacion página "hábitos" */
 
 .container {
@@ -155,6 +146,15 @@ form {
     color: var(--color-subtitulos)
 }
 
+/* Formulario de contacto */
+form {
+    font-family: "Marhey", sans-serif;
+    width: 40%;
+    border: 1px solid var(--color-acento);
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
 
 form label {
     display: inline-block;
