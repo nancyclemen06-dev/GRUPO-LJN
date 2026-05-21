@@ -122,6 +122,21 @@ dd {
     margin: 0 0 0.8rem 1rem;
 }
 
+/* Pagina Inicio */
+.tarjetas-programas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.programas {
+    border: 1px solid var(--color-acento);
+    padding: 1rem;
+    width: 400px;
+    text-align: center;
+}
+
 /* Publicaciones */
 
 .container {
