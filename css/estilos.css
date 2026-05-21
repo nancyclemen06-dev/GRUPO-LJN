@@ -125,7 +125,8 @@ dd {
 /* Pagina Inicio */
 .tarjetas-programas {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
     justify-content: center;
     margin-top: 1rem;
 }
@@ -133,7 +134,7 @@ dd {
 .programas {
     border: 1px solid var(--color-acento);
     padding: 1rem;
-    width: 400px;
+    width: 350px;
     text-align: center;
 }
 
