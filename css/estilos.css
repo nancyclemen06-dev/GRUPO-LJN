@@ -39,8 +39,9 @@ body {
     padding: 0;
 }
 .navegacion ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
+    position: relative;
 }
 
 .navegacion ul li a {
@@ -52,6 +53,28 @@ body {
     text-decoration: none;
 }
 
+/* Menu desplegable */
+
+.navegacion ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right:-110%;
+    min-width: 270px;
+    padding: 1px;
+    background-color: #1E771E;
+}
+
+.menuDesplegable:hover .subMenu {
+    display: inline-block;
+}
+
+.subMenu li {
+    display: block;
+    margin: 10px;
+    padding:10px;
+    text-align: center;
+}
 
 
 /* Cuerpo de las paginas */
