@@ -294,3 +294,10 @@ h3 {
 .subtitulo {
     color: var(--color-subtitulos)
 }
+
+.programas hr{
+    height: 1px;
+    background-color: var(--color-acento);
+    border: none
+}
+
