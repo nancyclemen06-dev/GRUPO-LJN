@@ -32,6 +32,8 @@ body {
     color: #78f789;
     padding: 0.2em;
     text-align: center;
+    width: 100%;
+    margin: 0;
 }
 
 .navegacion ul {
@@ -120,18 +122,26 @@ body {
 }
 
 
-/* Pie de pagina */
+/*-- Pie de pagina --*/
+    /* Decoracion */
 .pieDePagina {
     font-family: "Marhey", sans-serif;
     background: var(--color-marca);
     color: #78f789;
-    padding: 0.001em;
+    padding: 0.1em;
     text-align: center;
 }
 
+    /* Decoracion de enalces */
 .pieDePagina a {
     color: #44f1bd;
     text-decoration: none;
+}
+    /* Margenes y ubicacion*/
+.pieDePagina {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 0;
 }
 
 /* Header */
