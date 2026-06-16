@@ -12,6 +12,7 @@
     --color-publicaciones: #a9e159 ;
     --color-subtitulos: #4c9141 ;
     --color-links: #b40505; 
+    --color-hover: #44f1bd;
 }
 
 body {
@@ -25,7 +26,8 @@ body {
     display: flex;
 }
 
- /* Navegación */
+/*-- Navegación --*/
+
  .encabezado {
     font-family: "Marhey", sans-serif;
     background: var(--color-marca);
@@ -47,13 +49,47 @@ body {
 }
 
 .navegacion ul li a {
-    color: #44f1bd;
+    color: var(--color-hover);
     text-decoration: none;
 }
 .navegacion ul li a:hover {
     color: var(--color-links);
     text-decoration: none;
 }
+
+.navegacion .dropdown-menu.show {
+    background: #0b5e28;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    min-width: 240px;
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.navegacion .dropdown-item {
+    display: block;
+    text-align: center;
+    padding: 0.6rem 1.2rem;
+    white-space: normal;
+}
+
+.navegacion .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #a3e635;
+    border-radius: 4px;
+}
+
+    /*Nav mobiles*/
+.tituloMobiles {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-marca);
+    text-decoration: none;
+}
+
 
 /* Menu desplegable */
 
