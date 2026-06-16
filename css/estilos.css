@@ -310,9 +310,14 @@ form input, form textarea {
 }
 
 .boton{
-    background-color: var(--color-acento);
-    color: black;
-    text-decoration: underline;
+    color: var(--color-acento) !important;
+    border-color: var(--color-acento)!important;
+}
+
+.boton:hover {
+    background-color: var(--color-acento)!important;
+    color: #fff !important;
+    border-color: var(--color-acento) !important;
 }
 
 /* Titulo*/
