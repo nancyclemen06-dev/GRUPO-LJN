@@ -132,13 +132,6 @@ body {
     max-width: 1800px;
     margin: 0rem ;
     padding: 1rem;
-    justify-content: center;
-}
-
-.cuerpoDePaginaForm {
-    max-width: 100%; /* O el ancho que necesites, ej: 600px */
-    margin: 0 auto;
-    padding: 0;
 }
 
 .cuerpoDePagina a {
@@ -345,11 +338,12 @@ dd {
 
 form {
     font-family: "Marhey", sans-serif;
-    width: 40%;
+    width: 100%;
     border: 1px solid var(--color-acento);
     padding: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    justify-content: center;
 }
 
 form label {

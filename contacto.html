@@ -82,28 +82,34 @@
         <section>
             <h3>¿Querés unirte a nosotros?</h3>
             <p>¡Únete a nuestra comunidad y recibe las últimas noticias!</p>
-            <form>
-                <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" required><br><br>
+            <div class="container" style="margin: 0;padding: 0;">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-6 col-xxl-4">
+                         <form>
+                            <label for="nombre">Nombre:</label><br>
+                            <input type="text" id="nombre" name="nombre" required><br><br>
         
-                <label for="email">Correo electrónico:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                            <label for="email">Correo electrónico:</label><br>
+                            <input type="email" id="email" name="email" required><br><br>
 
-                <label for="Programa">Programa para participar:</label><br>
-                <select id="programa" name="programa" required>
-                    <option value="">Seleccioná un programa</option>
-                    <option value="sembrando">Sembrando conciencia diaria</option>
-                    <option value="empleo">Empleo verde</option>
-                    <option value="festival">Festival ambiental</option>
-                    <option value="arbol">Un árbol = Una vida</option>
-                </select><br><br>     
+                            <label for="Programa">Programa para participar:</label><br>
+                            <select id="programa" name="programa" required>
+                                <option value="">Seleccioná un programa</option>
+                                <option value="sembrando">Sembrando conciencia diaria</option>
+                                <option value="empleo">Empleo verde</option>
+                                <option value="festival">Festival ambiental</option>
+                                <option value="arbol">Un árbol = Una vida</option>
+                            </select><br><br>     
         
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
-        
-                <input class="boton boton-hover" type="submit" value="Enviar">
-            </form>
-            <p >Para conocer más de nuestros programas, <a href="programas.html">hacé clic aquí</a>.</p>
+                            <label for="mensaje">Mensaje:</label><br>
+                            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+                    
+                            <input class="boton boton-hover" type="submit" value="Enviar">
+                        </form>
+                    </div>    
+                </div>        
+            </div>
+            <p>Para conocer más de nuestros programas, <a href="programas.html">hacé click aquí</a>.</p>
         </section>
     </main>
 
