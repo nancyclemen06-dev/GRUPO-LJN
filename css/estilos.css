@@ -123,6 +123,19 @@ body {
     justify-content: center;
 }
 
+.cuerpoDePaginaContacto {
+    max-width: 1800px;
+    margin: 0rem ;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.cuerpoDePaginaForm {
+    max-width: 100%; /* O el ancho que necesites, ej: 600px */
+    margin: 0 auto;
+    padding: 0;
+}
+
 .cuerpoDePagina a {
     color: #2f8d00fc;
     text-decoration: none;
@@ -324,6 +337,7 @@ dd {
 }
 
 /* Formulario de contacto */
+
 form {
     font-family: "Marhey", sans-serif;
     width: 40%;
