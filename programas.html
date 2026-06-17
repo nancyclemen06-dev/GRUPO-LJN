@@ -14,28 +14,59 @@
         <title>Programas - Tierra Fértil</title>
     </head>
 <body>
-    <header class="encabezado">
-        <h1>
-            Programas
-        </h1>
-        <nav class="navegacion">
-            <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                        <li class="menuDesplegable">
-                            <a href="programas.html">Programas</a>
+    <header class="fixed-top encabezado">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="imagenes/LogoONG.png" alt="Logo Tierra Fértil" width="50" height="50" class="logo">
+                <h1 class="d-none d-lg-block text-center pt-3">
+                Tierra Fértil
+                </h1>
+            </div>
+            <nav class="navbar navbar-expand-lg container-fluid navegacion">
+                
+                <div class="container-fluid d-flex justify-content-center">
 
-                            <ul class="subMenu">
-                                <li><a href="sembrando.html">Sembrando conciencia diaria</a></li>
-                                <li><a href="empleo.html">Empleo verde</a></li>
-                                <li><a href="festival.html">Festival ambiental</a></li>
-                                <li><a href="arbol.html">Un árbol = Una vida</a></li>
-                            </ul>
-                        </li>
-                    <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+                    <a class="navbar-brand d-lg-none tituloMobiles" href="index.html">Tierra Fértil</a>
+                    
+                    <button class="navbar-toggler ms-1" type="button" data-bs-toggle="collapse" data-bs-target=".menuTierraFertil" aria-controls="menuTierraFertil" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse menuTierraFertil">
+                        
+                        <ul class="navbar-nav text-end w-100 d-flex flex-column flex-lg-row justify-content-lg-center text-center">
+                            <li class="mb-2 mb-lg-0"><a href="index.html">Inicio</a></li>
+                            <li class="mb-2 mb-lg-0"><a href="nosotros.html">Nosotros</a></li>
+                            <li class="menuDesplegable">
+                                <a class="d-none d-lg-block" href="programas.html">Programas</a>
+
+                                <ul class="subMenu">
+                                    <li><a href="sembrando.html">Sembrando conciencia diaria</a></li>
+                                    <li><a href="empleo.html">Empleo verde</a></li>
+                                    <li><a href="festival.html">Festival ambiental</a></li>
+                                    <li><a href="arbol.html">Un árbol = Una vida</a></li>
+                                </ul>
+                            </li>
+                            
+                           <li class="mb-2 d-lg-none text-center w-100">
+    
+                                <a class="me-1 inline-block" href="programas.html">Programas</a>
+
+                                <a class="dropdown-toggle inline-block" href="#" id="navbarDropdownMobile" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                
+                                <ul class="dropdown-menu text-center w-50 d-column d-lg-none menuDespegableMobile" aria-labelledby="navbarDropdownMobile">
+                                    <li><a class="dropdown-item d-block" href="sembrando.html">Sembrando conciencia diaria</a></li>
+                                    <li><a class="dropdown-item d-block" href="empleo.html">Empleo verde</a></li>
+                                    <li><a class="dropdown-item d-block" href="festival.html">Festival ambiental</a></li>
+                                    <li><a class="dropdown-item d-block" href="arbol.html">Un árbol = Una vida</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="mb-2 mb-lg-0"><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
     <main class="cuerpoDePagina">
         <section>
