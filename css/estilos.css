@@ -71,7 +71,6 @@ body {
 
 .navegacion .dropdown-item {
     display: block;
-    font-color: var(--color-hover);
     text-align: center;
     padding: 0.6rem 1.2rem;
     white-space: normal;
@@ -346,10 +345,23 @@ form input, form textarea {
     border: 1px solid var(--color-acento);
 }
 
+form select {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid var(--color-acento);
+}
+
+/* Bootstrap - personalizaciones */
 .boton{
-    background-color: var(--color-acento);
-    color: black;
-    text-decoration: underline;
+    color: var(--color-acento) !important;
+    border-color: var(--color-acento)!important;
+}
+
+.boton:hover {
+    background-color: var(--color-acento)!important;
+    color: #fff !important;
+    border-color: var(--color-acento) !important;
 }
 
 /* Titulo*/
