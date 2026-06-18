@@ -272,7 +272,7 @@ dd {
 
 /* Publicaciones */
 
-.container {
+.containerPublicaciones {
     background-color: var(--color-publicaciones) ;
     padding: 30px ;
     margin: 9px ;
@@ -284,12 +284,12 @@ dd {
     align-items: flex-start;
 }
 
-.container.menorGap {
+.containerPublicaciones.menorGap {
     gap: 15px;
     flex-wrap: wrap;
 }
 
-.container > figure {
+.containerPublicaciones > figure {
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -297,7 +297,7 @@ dd {
     margin: 0;
 }
 
-.container.menorGap > figure {
+.containerPublicaciones.menorGap > figure {
     width: 200px;
 }
 
