@@ -290,6 +290,11 @@ dd {
     margin: 0;
 }
 
+.containerPublicaciones .card-img-top {
+    height: 16rem;    
+    object-fit: cover;   
+}
+
 .containerPublicaciones.menorGap > figure {
     width: 200px;
 }
