@@ -211,6 +211,11 @@ body {
     text-align: left;
 }
 
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
 dt {
     font-weight: bold;
 }
