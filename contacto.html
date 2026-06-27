@@ -85,15 +85,15 @@
             <div class="container" style="margin: 0;padding: 0;">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4 col-xl-6 col-xxl-4">
-                         <form>
+                         <form id="formulario">
                             <label for="nombre">Nombre:</label><br>
-                            <input type="text" id="nombre" name="nombre" required><br><br>
+                            <input type="text" id="nombre" name="nombre"><br><br>
         
                             <label for="email">Correo electrónico:</label><br>
-                            <input type="email" id="email" name="email" required><br><br>
+                            <input type="email" id="email" name="email"><br><br>
 
                             <label for="Programa">Programa para participar:</label><br>
-                            <select id="programa" name="programa" required>
+                            <select id="programa" name="programa">
                                 <option value="">Seleccioná un programa</option>
                                 <option value="sembrando">Sembrando conciencia diaria</option>
                                 <option value="empleo">Empleo verde</option>
@@ -102,9 +102,11 @@
                             </select><br><br>     
         
                             <label for="mensaje">Mensaje:</label><br>
-                            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+                            <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
                     
                             <input class="boton boton-hover" type="submit" value="Enviar">
+
+                            <p id="respuesta-formulario"></p>
                         </form>
                     </div>    
                 </div>        
