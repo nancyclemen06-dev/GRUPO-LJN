@@ -395,6 +395,15 @@ form select {
     border-color: var(--color-acento) !important;
 }
 
+/* Colores para la validacion del formulario*/
+.error {
+  color: #B71C1C;   
+}
+
+.exito {
+  color: #1A6B2A;   
+}
+
 /* Titulo*/
 h2 {
   font-size: 1.8rem;         
