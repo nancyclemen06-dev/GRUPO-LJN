@@ -21,7 +21,7 @@ formulario.addEventListener('submit', (e) => {
         return;
     }
 
-    respuestaFormulario.textContent = '¡Formulario enviado con éxito!';
+    respuestaFormulario.innerHTML = `¡Gracias, ${nombre}! tu respuesta se ha enviado con éxito.<br>Te contactaremos a ${email} para darte mas información sobre el programa "${programa}".`;
     respuestaFormulario.className = "exito";
 
     formulario.reset();
