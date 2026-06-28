@@ -26,3 +26,5 @@ formulario.addEventListener('submit', (e) => {
 
     formulario.reset();
 });
+
+//Modo oscuro
