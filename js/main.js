@@ -1,4 +1,9 @@
+//Modo oscuro
+const btnModo = document.getElementById("boton");
 
+btnModo.addEventListener("click", () => {
+    document.body.classList.toggle("modo-oscuro");
+})
 
 /* Validación del formulario de contacto */
 
