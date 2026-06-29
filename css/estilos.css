@@ -7,6 +7,7 @@
 /* Variables */
 :root {
     --color-marca: linear-gradient(165deg, #53c959, #0f6328, #157402b0); /*fondo verde*/
+    --color-marca-oscura: linear-gradient(165deg, #032705, #0f6328, #032705);
     --color-fondo: antiquewhite;
     --color-acento: #809B41;
     --color-publicaciones: #a9e159 ;
@@ -42,6 +43,17 @@ body.modo-oscuro {
 
 .btn-modo:hover{
     opacity: 0.8;
+}
+
+body.modo-oscuro header {
+   background: var(--color-marca-oscura);
+   color: #49af57;
+
+}
+
+body.modo-oscuro footer {
+    background: var(--color-marca-oscura);
+    color: #49af57;
 }
 
 
