@@ -27,6 +27,24 @@ body {
     display: flex;
 }
 
+/*Modo oscuro*/
+
+body.modo-oscuro {
+  background-color: #1A1A1A;
+  color: #F5F5F5;
+}
+
+.btn-modo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-modo:hover{
+    opacity: 0.8;
+}
+
+
 /*-- Navegación --*/
 
  .encabezado {
@@ -433,17 +451,4 @@ h3 {
     height: 1px;
     background-color: var(--color-acento);
     border: none
-}
-
-/*Modo oscuro*/
-
-body.oscuro{
-    background-color: #1a1a1a;
-    color: #f5f5f5;
-}
-
-#btn-modo{
-    position: absolute;
-    top: 10px;
-    right: 10px;
 }

@@ -1,3 +1,5 @@
+
+
 /* Validación del formulario de contacto */
 
 const formulario = document.getElementById('formulario');
@@ -26,5 +28,3 @@ formulario.addEventListener('submit', (e) => {
 
     formulario.reset();
 });
-
-//Modo oscuro
