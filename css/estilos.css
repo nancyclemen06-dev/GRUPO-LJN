@@ -431,14 +431,14 @@ form select {
 
 /* Bootstrap - personalizaciones */
 .boton{
-    color: var(--color-acento) !important;
-    border-color: var(--color-acento)!important;
+    color: var(--color-acento);
+    border-color: var(--color-acento);
 }
 
 .boton:hover {
-    background-color: var(--color-acento)!important;
-    color: #fff !important;
-    border-color: var(--color-acento) !important;
+    background-color: var(--color-acento);
+    color: #fff;
+    border-color: var(--color-acento);
 }
 
 /* Colores para la validacion del formulario*/
