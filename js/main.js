@@ -6,7 +6,20 @@ btnModo.addEventListener("click", () => {
 
     const modoActivo = document.body.classList.contains("modo-oscuro");
     btnModo.textContent = modoActivo ? "☀️ Modo claro" : "🌙 Modo oscuro";
+
+    if (document.body.classList.contains('modo-oscuro')) {
+        localStorage.setItem('tema', 'oscuro');
+    } else {
+        localStorage.setItem('tema', 'claro');
+    }
 })
+
+const temaGuardado = localStorage.getItem('tema');
+
+if (temaGuardado === 'oscuro') {
+    document.body.classList.add('modo-oscuro');
+}
+
 
 /* Validación del formulario de contacto */
 
@@ -36,3 +49,4 @@ formulario.addEventListener('submit', (e) => {
 
     formulario.reset();
 });
+
